@@ -5,8 +5,8 @@ export default function DisplayPoke({pokemons}) {
 
 
   return (
-    <div>
-      
+    <div className='row'>
+
         {pokemons.map((pj) => <Card pokemon={pj}/>)}
 
     </div>

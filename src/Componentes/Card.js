@@ -19,10 +19,10 @@ export default function Card({pokemon}) {
     }
 
   return (
-    <div className="card text-center" style={{ width: "600px", backgroundColor: "#FFF0F0", alignItems: "center"}}>
+    <div className="card container" style={{ width: "400px", marginBottom: "40px", height: "300px", backgroundColor: "#FFF0F0", alignItems: "center"}}>
       <div className="card-header" style={{ width: "100%" }}> {onePoke.name} </div>
       <div className="card-body">
-        <img src={onePoke.sprites.front_default} alt="poke-imagen" />
+        <img src={onePoke.sprites.front_default} alt="poke-imagen" style={{width: "200px"}}/>
       </div>
     </div>
   );

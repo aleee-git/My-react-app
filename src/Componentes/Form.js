@@ -47,7 +47,7 @@ export default class Form extends Component {
   render() {
 
     return (
-      <div className="card text-center" style={{width: "600px", backgroundColor:"#FFF0F0", alignItems:"center"}}>
+      <div className="card text-center container" style={{width: "600px", backgroundColor:"#FFF0F0", alignItems:"center"}}>
         <div className="card-header" style={{width: "100%"}}>Formulario para gays</div>
         <div className="card-body">
           <form onSubmit={this.handlesubmit}>
